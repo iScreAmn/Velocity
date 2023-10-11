@@ -1,1 +1,1 @@
-Some information about **velocity** will be placed here 🫶
+Some information about **«Velocity»** will be placed here 🫶
