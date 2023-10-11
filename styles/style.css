@@ -17,19 +17,41 @@ p {
   line-height: 1.8;
 }
 
+/* HEADER */
+
 .header {
+  padding: 17px 18px;
 }
 
-.container {
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   color: #69B9FF;
   font-size: 25px;
-  line-height: 1;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
 
 .header__nav {
+  
 }
+
+.link__container {
+  display: flex;
+  gap: 40px;
+}
+
+.header__link {
+  color: #676770;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.header__link:hover {
+  color: #69B9FF;
+}
+
