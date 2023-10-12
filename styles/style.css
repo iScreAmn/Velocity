@@ -21,6 +21,10 @@ p {
 
 .header {
   padding: 17px 18px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 100;
 }
 
 .header__container {
@@ -55,3 +59,72 @@ p {
   color: #69B9FF;
 }
 
+/* WELCOME */
+
+.welcome {
+  /* max-width: 940px; */
+  min-height: 600px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 195px 0;
+  background-image: url("../img/welcome-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__heading {
+  margin-bottom: 106px;
+  font-size: 59px;
+  line-height: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.welcome__links {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.link-primary {
+  display: inline-block;
+  border-radius: 4px;
+  background: #69B9FF;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 11px 30px;
+  letter-spacing: 2px;
+  transition: background-color 0.3s;
+}
+
+.link-primary:hover {
+  background-color: #0f8fff;
+}
+
+.link {
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* transition: background-color 0.3s; */
+}
+
+.link:hover {
+  background-color: rgb(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.link:active {
+  background-color: rgb(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.5);
+}
