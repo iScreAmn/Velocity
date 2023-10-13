@@ -6,16 +6,53 @@ body {
   font-size: 14px;
 }
 
+p {
+  color: #6A859C;
+  line-height: 1.8;
+}
+
 .container {
   max-width: 970px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-p {
-  color: #6A859C;
-  line-height: 1.8;
+.title__wrapper {
+  margin: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  justify-content: center;
+  align-items: center;
 }
+
+.section__title {
+  color: #676770;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.section__subtitle {
+  color: #8E8E9C;
+  font-size: 17px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.common__section {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.common__section-dark {
+  background-color: #192024;;
+}
+
+.common__section-dark * {
+  color: #fff;
+}
+
 
 /* HEADER */
 
@@ -23,6 +60,7 @@ p {
   padding: 17px 18px;
   position: fixed;
   background-color: #fff;
+  /* box-shadow: 0px 0px 8px rgba(0,0,0,0.1); */
   width: 100%;
   z-index: 100;
 }
@@ -128,3 +166,87 @@ p {
   background-color: rgb(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0.5);
 }
+
+/* ABOUT */
+
+.about {
+  
+}
+
+.about .cards__wrapper {
+  margin-bottom: 80px;
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+  text-align: center;
+}
+
+.about .card {
+  width: 300px;
+  padding: 35px 15px 25px;
+  border-radius: 5px;
+  border: 1px solid #DCEBF7;
+}
+
+.card-image {
+  margin-bottom: 19px;
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
+}
+
+.card-title {
+  margin-bottom: 14px;
+  color: #676770;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.card-subtitle {
+  color: #6A859C;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* SERVICES */
+
+.services {
+
+}
+
+.services .cards__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services .card {
+  width: 45%;
+}
+
+.services-image {
+  margin-bottom: 20px;
+}
+
+.services-title {
+  margin-bottom: 14px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.services-subtitle {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.services .link {
+  margin-top: 20px;
+}
+
